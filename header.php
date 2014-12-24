@@ -18,7 +18,7 @@
 			<h2 class="taligncenter"><i><span>california</span> digital agency</i></h2>
 			<div class="container">
 				<nav class="aligncenter">
-					<ul>
+					<ul class="gradientbg">
 						<li>Menu</li>
 						<li>Contact Us</li>
 					</ul>
@@ -29,7 +29,7 @@
 				<div class="menu-section black">
 					<div class="col-wrap">
 						<div class="column half">
-							<h3>What we Do</h3>
+							<h3>what we do</h3>
 						</div>
 						<div class="column half">
 							<ul>
@@ -44,7 +44,7 @@
 				<div class="menu-section white">
 					<div class="col-wrap">
 						<div class="column half">
-							<h3>Who we Are</h3>
+							<h3>who we are</h3>
 						</div>
 						<div class="column half">
 							<ul>
@@ -57,7 +57,7 @@
 				<div class="menu-section black">
 					<div class="col-wrap">
 						<div class="column half">
-							<h3>How to Reach Us</h3>
+							<h3>how to reach us</h3>
 						</div>
 						<div class="column half">
 							<ul>

@@ -5,6 +5,7 @@ $(document).ready(function(){
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
+		backDelay: 1000,
 		arrows: true,
 	});
 
@@ -14,6 +15,18 @@ $(document).ready(function(){
 
 	$('header nav ul li').click(function(){
 		$('.menu').slideToggle();
+	});
+
+	$('.video .overlay h3 span').typed({
+		strings: ["Design", "Photography", "Business", "Technology", "Programming"],
+		typeSpeed: 0,
+		loop: true
+	});
+
+	$('.image-wrap').hover(function(){
+		$(this).find('.overlay').fadeToggle();
+	},function(){
+		$(this).find('.overlay').fadeToggle();
 	});
 
 	// Header Replacement
