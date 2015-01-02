@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php get_header(); ?>
 <div class="column half justify">
 	<div class="video">
 		<video id="big-video" loop="" preload="" autoplay="">
@@ -14,74 +14,100 @@
 		<div class="banner"><p>Services</p></div>
 		<div class="service-wrap">
 			<div class="post">
-				<div class="image-wrap">
-					<img src="images/web-design.jpg">
-					<div class="overlay">
-						<i class="fa fa-html5"></i>
-						<p>Learn More</p>
+				<a href="<?php echo get_site_url(); ?>/services/web-design">
+					<div class="image-wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/web-design.jpg">
+						<div class="overlay">
+							<i class="fa fa-html5"></i>
+							<p>Learn More</p>
+						</div>
 					</div>
-				</div>
-				<h4>Web Design</h4>
-				<div class="white-wrap">
-					<p>With over twenty years of collective experience, Inspyre is ready to make your project a success!</p>
-				</div>
+					<h4>Web Design</h4>
+					<div class="white-wrap">
+						<p>With over twenty years of collective experience, Inspyre is ready to make your project a success!</p>
+					</div>
+				</a>
 			</div>
 			<div class="post">
-				<div class="image-wrap">
-					<img src="images/photography.jpg">
-					<div class="overlay">
-						<i class="fa fa-camera-retro"></i>
-						<p>Learn More</p>
+				<a href="<?php echo get_site_url(); ?>/services/photography">
+					<div class="image-wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/photography.jpg">
+						<div class="overlay">
+							<i class="fa fa-camera-retro"></i>
+							<p>Learn More</p>
+						</div>
 					</div>
-				</div>
-				<h4>Photography</h4>
-				<div class="white-wrap">
-					<p>Custom Photography will make your products and brands stand out among the rest.</p>
-				</div>
+					<h4>Photography</h4>
+					<div class="white-wrap">
+						<p>Custom Photography will make your products and brands stand out among the rest.</p>
+					</div>
+				</a>
 			</div>
 			<div class="post">
-				<div class="image-wrap">
-					<img src="images/ecommerce.jpg">
-					<div class="overlay">
-						<i class="fa fa-shopping-cart"></i>
-						<p>Learn More</p>
+				<a href="<?php echo get_site_url(); ?>/services/ecommerce">
+					<div class="image-wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/ecommerce.jpg">
+						<div class="overlay">
+							<i class="fa fa-shopping-cart"></i>
+							<p>Learn More</p>
+						</div>
 					</div>
-				</div>
-				<h4>eCommerce</h4>
-				<div class="white-wrap">
-					<p>Our team can help you make the leap to selling your products online. Start selling today!</p>
-				</div>
+					<h4>eCommerce</h4>
+					<div class="white-wrap">
+						<p>Our team can help you make the leap to selling your products online. Start selling today!</p>
+					</div>
+				</a>
 			</div>
 			<div class="post">
-				<div class="image-wrap">
-					<img src="images/custom-projects.png">
-					<div class="overlay">
-						<i class="fa fa-pencil"></i>
-						<p>Learn More</p>
+				<a href="<?php echo get_site_url(); ?>/services/social-media">
+					<div class="image-wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/social-media.jpg">
+						<div class="overlay">
+							<i class="fa fa-facebook"></i>
+							<p>Learn More</p>
+						</div>
 					</div>
-				</div>
-				<h4>Custom Projects</h4>
-				<div class="white-wrap">
-					<p>Great ideas need great support. Inspyre can help take your idea from concept to completion.</p>
-				</div>
+					<h4>Social Media</h4>
+					<div class="white-wrap">
+						<p>We can help you determine a budget and analyze your progress and results.</p>
+					</div>
+				</a>
 			</div>
 			<div class="post">
-				<div class="image-wrap">
-					<img src="images/print-branding.jpg">
-					<div class="overlay">
-						<i class="fa fa-pencil"></i>
-						<p>Learn More</p>
+				<a href="<?php echo get_site_url(); ?>/services/custom-projects">
+					<div class="image-wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/custom-projects.png">
+						<div class="overlay">
+							<i class="fa fa-pencil"></i>
+							<p>Learn More</p>
+						</div>
 					</div>
-				</div>
-				<h4>Print and Branding</h4>
-				<div class="white-wrap">
-					<p>We are a full service design firm that help you obtain an identity in any medium.</p>
-				</div>
+					<h4>Custom Projects</h4>
+					<div class="white-wrap">
+						<p>Great ideas need great support. Inspyre can help take your idea from concept to completion.</p>
+					</div>
+				</a>
+			</div>
+			<div class="post">
+				<a href="<?php echo get_site_url(); ?>/services/print-and-branding">
+					<div class="image-wrap">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/print-branding.jpg">
+						<div class="overlay">
+							<i class="fa fa-pencil"></i>
+							<p>Learn More</p>
+						</div>
+					</div>
+					<h4>Print and Branding</h4>
+					<div class="white-wrap">
+						<p>We are a full service design firm that help you obtain an identity in any medium.</p>
+					</div>
+				</a>
 			</div>
 		</div>
 		<div class="post">
+			<a href="<?php echo get_site_url(); ?>/about-us">
 			<div class="image-wrap">
-				<img src="images/about.jpg">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/about.jpg">
 				<div class="overlay">
 					<i class="fa fa-university"></i>
 					<p>Learn More</p>
@@ -91,13 +117,13 @@
 			<div class="white-wrap">
 				<p>With over eight years of collective experienc, inspyre is ready to make your project a success!</p>
 			</div>
+		</a>
 		</div>
 		<div class="post">
 			<div class="image-wrap">
-				<img src="images/team.jpg">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/team.jpg">
 				<div class="overlay">
 					<i class="fa fa-users"></i>
-					<p>Learn More</p>
 				</div>
 			</div>
 			<h4>Our Team</h4>
@@ -116,12 +142,9 @@
 			<h4>1205 J St. Suite E</h4>
 			<div class="white-wrap">
 				<p>San Diego, CA 92101</p>
-				<p>Contact@inspyregroup.com / (619)795-7267</p>
+				<p>Contact@inspyregroup.com / (619) 795-7267</p>
 			</div>
 		</div>
 	</div>
 </div>
-</div>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>

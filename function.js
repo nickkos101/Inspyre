@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('.menu').slideUp();
 	});
 
-	$('header nav ul li').click(function(){
+	$('header nav ul li:first-of-type').click(function(){
 		$('.menu').slideToggle();
 	});
 
@@ -40,5 +40,10 @@ $(document).ready(function(){
 	if ($('.bg-data').length) {
 		var imageUrl = $('.bg-data').attr('src');
 		$('.skyline').css('background-image', 'url(' + imageUrl + ')');
+		$('header .bottom-content p').css('background-image', 'url(' + imageUrl + ')');
+		$('header .bottom').fadeIn();
+	}
+	if ($('.repeat-bg').length) {
+		$('header').css('background-size', 'auto')
 	}
 });

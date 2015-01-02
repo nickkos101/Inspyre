@@ -1,4 +1,4 @@
-<?php include 'header.php'; ?>
+<?php get_header(); ?>
 <div class="column half justify">
 	<div class="page-title">
 		<h2>Our Team</h2>
@@ -27,6 +27,4 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-</body>
-</html>
+<?php get_footer(); ?>
