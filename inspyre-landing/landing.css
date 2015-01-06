@@ -1,18 +1,66 @@
-.landing header {width:100%; height: 118px;}
-.landing .logo {padding-top: 0px;}
+.landing {background-color: #fff; font-family: 'Open Sans', sans-serif;}
+
+.fifth {width: 20%;}
+
+.landing input[type=text], .landing input[type=number], .landing input[type=password], .landing input[type=email], .landing textarea {margin-left: 0px; margin-right: 0px;}
+
+
+.landing header {width:100%; height: auto; z-index: 99999999;}
+.landing .logo {margin-top: 0px; font-size:40px; font-family: 'Open Sans', sans-serif; font-weight:100; letter-spacing: -0.02em; text-shadow:1px 1px 2px rgba(0, 0, 0, 0.4); text-transform: none; }
+.landing .logo i {font-weight: 500;}
+.landing .logo img {max-height: 20px; vertical-align: middle;}
+.landing .logo span {font-size:18px; text-transform: lowercase; text-shadow:none;}
+
+.solid-wrap {background-color:#CB3361; color:#fff; box-sizing: border-box; padding: 20px; -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25); -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25); box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25);}
+.equation i {font-size: 85px; margin-bottom: 25px;}
+.equation h1 {font-size: 85px;}
+
+.landing .nobot {padding-bottom: 0px;}
+.landing .nobot .column {padding-bottom: 0px;}
+
+.landing .subtext {font-size:64px; margin-top: 55px;}
+
+
+.landing header .page-title {padding:0px;}
 
 .landing .page-title, .landing input[type=submit] {background-color:#CB3361;}
 
-.landing h1, .landing h2, .landing h3, .landing h4, .landing h5, .landing h6, .landing .shipping .fa-truck, .landing .shipping .fa-bar-chart {text-transform: uppercase; text-shadow:1px 1px 2px rgba(0,0,0,1);}
+.landing .example .overlay {right:10%;}
+
+.landing .example .overlay h3 {background-color:transparent; color:#fff; text-shadow:none; font-size: 32px; font-weight:200; font-family: 'Open Sans', sans-serif; }
+.landing .example .overlay h3 i {padding-right: 20px; font-size:78px; margin-top: -5px; vertical-align: middle;}
+
+
+.landing h1, .landing h2, .landing h3, .landing h4, .landing h5, .landing h6, .landing .shipping .fa-truck, .landing .shipping .fa-bar-chart {font-family: 'Open Sans', sans-serif; font-weight:300; text-transform: uppercase; text-shadow:none;}
 .white-wrap h1, .white-wrap h2, .white-wrap h3, .white-wrap h4, .white-wrap h5, .white-wrap h6 {text-shadow:none;}
 
-.landing main {padding-top: 118px;}
-.landing .supported img {height: 86px;}
+.landing main {margin-top:118px;}
+.landing .supported img {height: 86px; padding:20px;}
 .landing .column {padding: 20px;}
+
+.landing .examples {height:600px; background-image:url('images/responsive.png'); z-index: 9999; position: relative; margin-bottom: -350px;}
 
 .landing input, .landing textarea {width: 100%; margin-bottom: 15px;}
 .landing .shipping .fa-truck, .landing .shipping .fa-bar-chart {font-size:198px;}
 .landing .shipping {padding-bottom:75px;}
-.landing .shipping p {line-height:38px; font-size: 22px;  text-shadow:1px 1px 2px rgba(0,0,0,1);}
+.landing .shipping h1 {font-size: 92px;}
+.landing .shipping h2 {font-size:48px; text-align: center;}
+.landing .shipping p {line-height:38px; font-size: 22px; font-weight: 200;}
 
-.landing .e-com-form {padding: 20px; background-image: url('images/ecommerce.jpg'); background-size: cover; background-repeat: no-repeat; color: #fff;}
+.spacer {margin-top:350px; border-top:10px #CB3361 solid;}
+
+.landing .e-com-form h1 {font-size: 48px;}
+.landing .e-com-form p {line-height:36px;}
+.landing .e-com-form i {font-size:32px; vertical-align: middle; padding-right: 25px;}
+
+.landing footer iframe {border:4px solid #fff;}
+
+
+.landing footer {max-height: 300px; overflow: hidden;}
+.landing footer ul {padding:0px;}
+.landing footer li {list-style: none; font-size: 24px; font-weight: 200; padding-bottom: 15px;}
+
+.col-wrap .fa-sun-o {font-size:505px; color:#D33F6C;}
+
+
+.landing .page-title.blacken {background-color:#D33F6C;}
