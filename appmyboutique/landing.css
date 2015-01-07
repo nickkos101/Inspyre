@@ -14,7 +14,7 @@
 .landing .logo img {max-height: 20px; vertical-align: middle;}
 .landing .logo span {font-size:18px; text-transform: lowercase; text-shadow:none;}
 
-.solid-wrap {background-color:#CB3361; color:#fff; box-sizing: border-box; padding: 20px; -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25); -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25); box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25);}
+.solid-wrap {background-color:#279C6A; color:#fff; box-sizing: border-box; padding: 20px; -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25); -moz-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25); box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.25);}
 .equation i {font-size: 85px; margin-bottom: 25px;}
 .equation h1 {font-size: 85px;}
 
@@ -28,7 +28,7 @@
 
 .landing header .page-title {padding:0px;}
 
-.landing .page-title, .landing input[type=submit] {background-color:#CB3361;}
+.landing .page-title, .landing input[type=submit] {background-color:#279C6A;}
 
 .landing .example .overlay {right:2%;}
 
@@ -48,11 +48,11 @@
 .landing input, .landing textarea {width: 100%; margin-bottom: 15px;}
 .landing .shipping .fa-truck, .landing .shipping .fa-bar-chart {font-size:198px;}
 .landing .shipping {padding-bottom:75px;}
-.landing .shipping h1 {font-size: 92px; background: #fff; color: #cb3361; display: inline-block; border-radius: 50%; padding: 20px 30px; font-weight: 500; margin-right: 20px; margin-left: 20px;}
+.landing .shipping h1 {font-size: 92px; background: #fff; color: #279C6A; display: inline-block; border-radius: 50%; padding: 20px 30px; font-weight: 500; margin-right: 20px; margin-left: 20px;}
 .landing .shipping h2 {font-size:48px; text-align: center;}
 .landing .shipping p {line-height:38px; font-size: 22px; font-weight: 200;}
 
-.spacer {margin-top:350px; border-top:10px #CB3361 solid;}
+.spacer {margin-top:350px; border-top:10px #279C6A solid;}
 
 .landing .e-com-form h1 {font-size: 48px;}
 .landing .e-com-form p {line-height:36px;}
@@ -65,12 +65,12 @@
 .landing footer ul {padding:0px;}
 .landing footer li {list-style: none; font-size: 24px; font-weight: 200; padding-bottom: 15px;}
 
-.col-wrap .fa-sun-o {font-size:505px; color:#D33F6C;}
+.col-wrap .fa-sun-o {font-size:505px; color:#2CAD76;}
 
 .landing .static {display: none; text-align: center;}
 
 
-.landing .page-title.blacken {background-color:#D33F6C;}
+.landing .page-title.blacken {background-color:#2CAD76;}
 
 @media (max-width: 926px) {
 	.landing header {position: fixed;}
